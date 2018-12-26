@@ -29,6 +29,10 @@ vendor/lib/rfsa/adsp/libadsp_fd_skel.so
 vendor/lib/rfsa/adsp/libexternal_dog_skel.so
 vendor/lib/rfsa/adsp/libhvxMathVIO.so
 
+# AptX - from Nokia 7 Plus Onyx_00WW-user 9 PKQ1.180712.001 00WW_3_150 release-keys
+vendor/lib64/libaptX_encoder.so|22f5749edb5099526788c22708099a7791dd837f
+vendor/lib64/libaptXHD_encoder.so|c4ad4d6d7615f7df3ea1a4be5c6dae8a8c8ee8b1
+
 # Audio libraries
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
