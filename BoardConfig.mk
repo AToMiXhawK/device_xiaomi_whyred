@@ -198,7 +198,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
-include vendor/omni/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Security patch level
