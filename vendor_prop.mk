@@ -87,6 +87,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.cne.feature=1
 
+# Density
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=420
+
 # Device Specific
 PRODUCT_PROPERTY_OVERRIDES += \
     sys.autobrightness_optimize=true \
