@@ -201,6 +201,9 @@ include device/qcom/sepolicy/sepolicy.mk
 include vendor/omni/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2018-11-01
+
 # QCOM TIME SERVICES
 BOARD_USES_QC_TIME_SERVICES := true
 
