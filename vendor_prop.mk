@@ -255,6 +255,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.af.client_heap_size_kbyte=7168
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.audio.hw.binder.size_kbyte=1024
+
 # Time daemon
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true \
