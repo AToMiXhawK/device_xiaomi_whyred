@@ -251,6 +251,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.sensors.sta_detect=true \
     ro.vendor.sensors.mot_detect=true
 
+# Set AudioFlinger client heap size
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.af.client_heap_size_kbyte=7168
+
 # Time daemon
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true \
