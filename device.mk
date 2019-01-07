@@ -136,6 +136,10 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libtinyxml
 
+# Doze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 # Media
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
