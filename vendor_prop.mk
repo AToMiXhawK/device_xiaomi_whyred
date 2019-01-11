@@ -174,7 +174,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.disable_bframes=1 \
     vendor.vidc.dec.enable.downscalar=1 \
     vendor.vidc.enc.disable.pq=false \
-    video.disable.ubwc=1
+    video.disable.ubwc=1 \
+    vendor.video.disable.ubwc=1
 
 # Memory
 PRODUCT_PROPERTY_OVERRIDES += \

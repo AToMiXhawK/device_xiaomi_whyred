@@ -93,6 +93,7 @@ PRODUCT_PACKAGES += \
     audio.primary.sdm660 \
     audio.r_submix.default \
     audio.usb.default \
+    libaacwrapper \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
@@ -319,7 +320,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SnapdragonCamera2
 
-# Wfd
+# Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
